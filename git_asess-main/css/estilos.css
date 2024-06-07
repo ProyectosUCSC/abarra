@@ -60,3 +60,39 @@ body {
     margin-top: 10px;
 }
 
+.contenido {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+
+
+.aboutseccion, .admissionseccion {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.admissionseccion {
+    flex-direction: row-reverse; 
+}
+
+.aboutseccion h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.aboutseccion p{
+    font-size: 14px;
+    color: black;
+}
+
+.aboutimg{
+    width: 200px;
+    height: auto;
+    margin: 0 20px; 
+}
